@@ -43,6 +43,8 @@ namespace Calculadora_CSharp.Models
         }
         public void Somar()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de soma! \n Digite o primeiro número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -54,6 +56,8 @@ namespace Calculadora_CSharp.Models
 
         public void Subtrair()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de subtrair! \n Digite o primeiro número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -65,6 +69,8 @@ namespace Calculadora_CSharp.Models
 
         public void Dividir()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de dividir! \n Digite o primeiro número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -76,6 +82,8 @@ namespace Calculadora_CSharp.Models
 
         public void Multiplicar()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de multiplicar! \n Digite o primeiro número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -87,6 +95,8 @@ namespace Calculadora_CSharp.Models
 
         public void Potencia()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de potência! \n Digite o primeiro número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -100,6 +110,8 @@ namespace Calculadora_CSharp.Models
 
         public void RaizQuadrada()
         {
+            Console.Clear();
+
             Console.WriteLine("Operação de raíz quadrada! \n Digite um número: ");
             int a = Convert.ToInt32(Console.ReadLine());
 
